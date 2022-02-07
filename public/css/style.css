@@ -76,15 +76,15 @@ a:focus {
 /********** Top Bar CSS ***********/
 /**********************************/
 .top-bar {
-    position: relative;
+    position: center;
     height: 90px;
     width: device-width;
-    background: #02187e;
+    background: #ffffff;
 }
 
 .top-bar .logo {
     padding: 15px 0;
-    text-align: left;
+    text-align: center;
     overflow: hidden;
 }
 
