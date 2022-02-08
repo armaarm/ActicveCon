@@ -680,22 +680,22 @@ a:focus {
 
 .fact .fact-left,
 .fact .fact-right {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .fact .fact-text h2 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
     padding: 30px 30px;
 }
 
 .fact .fact-text p {
     margin: 0;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 200;
     padding: 5px 50px;
-    text-transform: uppercase;
+    
 }
 
 .fact .fact-left {
