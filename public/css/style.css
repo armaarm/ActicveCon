@@ -392,7 +392,7 @@ a:focus {
 .page-header h2 {
     position: relative;
     color: #02187e;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
     margin-bottom: 10px;
     padding-bottom: 5px;
@@ -401,9 +401,9 @@ a:focus {
 .page-header h2::after {
     position: absolute;
     content: "";
-    width: 50px;
+    width: 500px;
     height: 2px;
-    left: calc(50% - 50px);
+    left: calc(32% - 50px);
     bottom: 0;
     background: #02187e;
 }
