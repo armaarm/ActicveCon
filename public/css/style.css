@@ -1913,7 +1913,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
-    color: #b41212;
+    color: #ffffff;
 }
 
 .footer h2::after {
@@ -1923,7 +1923,7 @@ a:focus {
     height: 2px;
     left: 0;
     bottom: 0;
-    background: #b41212;
+    background: #ffffff;
 }
 
 .footer .footer-link a {
