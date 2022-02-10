@@ -45,8 +45,8 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #02187e;
-    color: #b41212;
+    background: #b41212;
+    color: #ffffff;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -59,8 +59,8 @@ a:focus {
 }
 
 .back-to-top:hover {
-    color: #ffffff;
-    background: #02187e;
+    color: #02187e;
+    background: #ffffff;
 }
 
 .back-to-top i {
@@ -936,19 +936,19 @@ a:focus {
 /*********** Team CSS **********/
 /*******************************/
 .team {
-    position: relative;
+    position: center;
     width: 100%;
     padding: 45px 0 15px 0;
 }
 
 .team .team-item {
-    position: relative;
+    position: center;
     margin-bottom: 30px;
     overflow: hidden;
 }
 
 .team .team-img {
-    position: relative;
+    position: center;
 }
 
 .team .team-img img {
@@ -956,16 +956,16 @@ a:focus {
 }
 
 .team .team-text {
-    position: relative;
-    padding: 25px 15px;
+    position: center;
+    padding: 10px 15px;
     text-align: center;
     background: #02187e;
     transition: .5s;
 }
 
 .team .team-text h2 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     color: #B19203;
     transition: .5s;
 }
@@ -975,14 +975,14 @@ a:focus {
     color: #ffffff;
 }
 
-.team .team-item:hover .team-text {
+/* .team .team-item:hover .team-text {
     background: #B19203;
 }
 
 .team .team-item:hover .team-text h2 {
     color: #02187e;
     letter-spacing: 1px;
-}
+} */
 
 .team .team-social {
     position: absolute;
@@ -1906,7 +1906,23 @@ a:focus {
     position: relative;
     margin-bottom: 45px;
 }
-
+.footer h1 {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.footer h1::after {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #ffffff;
+}
 .footer h2 {
     position: relative;
     margin-bottom: 20px;
