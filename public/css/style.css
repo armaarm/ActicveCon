@@ -401,9 +401,9 @@ a:focus {
 .page-header h2::after {
     position: absolute;
     content: "";
-    width: 500px;
+    width: 200px;
     height: 2px;
-    left: calc(32% - 50px);
+    left: calc(45% - 50px);
     bottom: 0;
     background: #02187e;
 }
@@ -2087,3 +2087,5 @@ a:focus {
         text-align: center;
     }
 }
+
+
