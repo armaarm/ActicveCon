@@ -4,7 +4,7 @@
 body {
     color: #000000;
     background: #02187e;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
     font-weight: 400;
 }
 
@@ -396,16 +396,6 @@ a:focus {
     font-weight: 500;
     margin-bottom: 10px;
     padding-bottom: 5px;
-}
-
-.page-header h2::after {
-    position: absolute;
-    content: "";
-    width: 200px;
-    height: 2px;
-    left: calc(45% - 50px);
-    bottom: 0;
-    background: #02187e;
 }
 
 .page-header a {
@@ -1895,7 +1885,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 20px;
-    padding-top: 90px;
+    padding-top: 40px;
     background: #02187e;
     color: #ffffff;
 }
@@ -1908,21 +1898,13 @@ a:focus {
 }
 .footer h1 {
     position: relative;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
     font-size: 25px;
     font-weight: 600;
     color: #ffffff;
 }
-.footer h1::after {
-    position: absolute;
-    content: "";
-    width: 150px;
-    height: 2px;
-    left: 0;
-    bottom: 0;
-    background: #ffffff;
-}
+
 .footer h2 {
     position: relative;
     margin-bottom: 20px;
@@ -1932,15 +1914,7 @@ a:focus {
     color: #ffffff;
 }
 
-.footer h2::after {
-    position: absolute;
-    content: "";
-    width: 60px;
-    height: 2px;
-    left: 0;
-    bottom: 0;
-    background: #ffffff;
-}
+
 
 .footer .footer-link a {
     display: block;
