@@ -403,7 +403,7 @@ a:focus {
     content: "";
     width: 200px;
     height: 2px;
-    left: calc(45% - 50px);
+    left: calc(40% - 50px);
     bottom: 0;
     background: #02187e;
 }
