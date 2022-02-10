@@ -474,7 +474,7 @@ a:focus {
 
 .section-header p {
     color: #02187e;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     margin-bottom: 5px;
 }
@@ -631,7 +631,7 @@ a:focus {
 
 .about .about-text a.btn:hover {
     color: #ffffff;
-    background: #B19203;
+    background: #b41212;
 }
 
 @media (max-width: 767.98px) {
