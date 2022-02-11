@@ -1885,7 +1885,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 20px;
-    padding-top: 40px;
+    padding-top: 50px;
     background: #02187e;
     color: #ffffff;
 }
@@ -1894,12 +1894,12 @@ a:focus {
 .footer .footer-link,
 .footer .newsletter {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
 }
 .footer h1 {
     position: relative;
     margin-bottom: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 25px;
     font-weight: 600;
     color: #ffffff;
@@ -1912,6 +1912,15 @@ a:focus {
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
+}
+
+.footer s{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #02187e;
 }
 
 
@@ -2005,7 +2014,7 @@ a:focus {
 
 .footer .footer-menu .f-menu {
     position: relative;
-    padding: 15px 0;
+    padding: 30px 0;
     font-size: 0;
     text-align: center;
     border-top: 1px solid rgba(256, 256, 256, .1);
