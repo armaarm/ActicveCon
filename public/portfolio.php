@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp" data-wow-delay="0.2s">
+                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow fadeInUp" data-wow-delay="0.2s">
                             <div class="portfolio-warp">
                                 <div class="portfolio-img">
                                     <img src="img/UN4.png" alt="Image">
