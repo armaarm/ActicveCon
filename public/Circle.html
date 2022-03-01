@@ -20,6 +20,7 @@
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/slide/slide.css" rel="stylesheet">
         <link href="lib/slick/slick.css" rel="stylesheet">
         <link href="lib/slick/slick-theme.css" rel="stylesheet">
 
@@ -144,32 +145,88 @@
                                     <br />
                                     <p>Year &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	&nbsp; &nbsp; &nbsp;&nbsp;:  2015-2016</p>
                                 </div>
-                                <br /><br />
-                                <img src="img/Circle1.png">
-                                <br /><br />
-                                <img src="img/Circle2.png">
-                                <br /><br />
-                                <img src="img/Circle3.png">
-                                <br /><br />
-                                <img src="img/Circle4.png">
-                                <br /><br />
-                                <img src="img/Circle5.png">
-                                <br /><br />
-                                <img src="img/Circle6.png">
-                                <br /><br />
-                                <img src="img/Circle7.png">
                             </div>
-                        </div>
-                         <br>
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <div class="sin-text">
-                                        <a class="btn" href="portfolio.html">Back</a>
-                                </div>
-                            </div>
-                        </div>              
+                        </div> 
                     </div>    
                 </div> 
+
+                <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text  -->
+            <div class="mySlides">
+                <img src="img/Circle1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/Circle2.png" style="width:100%">
+
+            </div>
+
+            <div class="mySlides">
+                <img src="img/Circle3.png" style="width:100%">
+            </div>
+
+             <div class="mySlides">
+                <img src="img/Circle4.png" style="width:100%">
+            </div>
+
+             <div class="mySlides">
+                <img src="img/Circle5.png" style="width:100%">
+            </div>
+
+             <div class="mySlides">
+                <img src="img/Circle6.png" style="width:100%">
+            </div>
+
+             <div class="mySlides">
+                <img src="img/Circle7.png" style="width:100%">
+            </div>
+
+            <!--Next and previous buttons  -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace("active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+        <div class="single">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="sin-text">
+                        <a class="btn" href="portfolio.html">Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
                      
                     
                     
