@@ -1652,7 +1652,7 @@ a:focus {
     border-radius: 0;
     background: #c0c0c0;
     border: none;
-    transition: .3s;
+    /* transition: .3s; */
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -1668,11 +1668,11 @@ a:focus {
 .portfolio .load-more .btn {
     padding: 15px 35px;
     font-size: 16px;
-    transition: .3s;
+    /* transition: .3s; */
 }
 
 .portfolio .load-more .btn:hover {
-    color: #8d836d[];
+    color: #8d836d;
     background: #02187e;
 }
 
@@ -1690,7 +1690,7 @@ a:focus {
 
 .portfolio .portfolio-img img {
     width: 100%;
-    transition: .3s;
+    /* transition: .3s; */
 }
 
 .portfolio .portfolio-item:hover img {
@@ -1739,7 +1739,7 @@ a:focus {
     color: #ffffff;
     text-align: center;
     overflow: hidden;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     text-overflow: ellipsis;
 }
 
