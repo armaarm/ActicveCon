@@ -1633,7 +1633,7 @@ a:focus {
 
 .portfolio #portfolio-flters {
     padding: 0;
-    margin: -15px 0 25px 0;
+    margin: 15px 0 25px 0;
     list-style: none;
     font-size: 0;
     text-align: center;
@@ -1644,7 +1644,7 @@ a:focus {
     cursor: pointer;
     display: inline-block;
     margin: 5px;
-    padding: 8px 15px;
+    padding: 8px 8px;
     color: #02187e;
     font-size: 15px;
     font-weight: 500;
@@ -1746,7 +1746,7 @@ a:focus {
 .portfolio .portfolio-warp a.btn {
     width: 60px;
     height: 60px;
-    padding: 0px 3 0 0px;
+    padding: 0px 5 5 10px;
     display: flex;
     align-items: center;
     justify-content: center;
