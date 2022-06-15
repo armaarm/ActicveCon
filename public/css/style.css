@@ -1757,7 +1757,7 @@ a:focus {
     color: #ffffff;
     background: #02187e;
     border-radius: 0;
-    transition: .3s;
+    /* transition: .3s; */
 }
 
 .portfolio .portfolio-warp:hover a.btn {
