@@ -1708,7 +1708,6 @@ a:focus {
     align-items: center;
     justify-content: center;
     background: rgba(3, 15, 39, .7);
-    transition: .5s;
     opacity: 0;
 }
 
@@ -1775,7 +1774,7 @@ a:focus {
     color: #ffffff;
     border-radius: 0;
     background: #02187e;
-    transition: .3s;
+    /* transition: .3s; */
 }
 
 .portfolio .port-text a.btn:hover {
