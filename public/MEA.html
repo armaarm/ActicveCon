@@ -82,7 +82,7 @@
             </div>
             <!-- Page Header End -->
 
-            <!-- Single Post Start-->
+        <!-- Single Post Start-->
                 <div class="single">
                     <div class="container">
                         <div class="row">
@@ -102,73 +102,70 @@
                 </div> 
                  <div class="slideshow-container">
 
-            <!-- Full-width images with number and caption text  -->
-            <div class="mySlides">
-                <img src="img/MEA1.png" style="width:100%">
+                <!-- Full-width images with number and caption text  -->
+                <div class="mySlides">
+                    <img src="img/MEA1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <img src="img/MEA2.png" style="width:100%">
+
+                </div>
+
+                <div class="mySlides">
+                    <img src="img/MEA3.png" style="width:100%">
+                </div>
+
+                <!--Next and previous buttons  -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-
-            <div class="mySlides">
-                <img src="img/MEA2.png" style="width:100%">
-
-            </div>
-
-            <div class="mySlides">
-                <img src="img/MEA3.png" style="width:100%">
-            </div>
-
-            <!--Next and previous buttons  -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
+            <br>
 
 
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
 
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                if (n > slides.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = slides.length }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
                 }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace("active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-            }
-        </script>
 
-        <div class="single">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="sin-text">
-                        <a class="btn" href="portfolio.html">Back</a>
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace("active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+
+            <div class="single">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="sin-text">
+                            <a class="btn" href="portfolio.html">Back</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>     
+            </div>     
                     
-                    
-                    
-
-            <!-- Single Post End-->   
+        <!-- Single Post End-->   
 
 
-            <!-- Footer Start -->
+        <!-- Footer Start -->
             <div class="footer wow fadeIn" data-wow-delay="0.5s">
                 <div class="container">
                     <div class="row">
